@@ -136,7 +136,7 @@ export default function AppPage() {
             <h2>Connected care starts with better information.</h2>
 
             <Link href="/#pilot" className="button button-light">
-              Join the pilot
+              Join the waitlist
             </Link>
           </div>
         </section>

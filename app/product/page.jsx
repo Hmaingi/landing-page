@@ -125,7 +125,7 @@ export default function ProductPage() {
             <p className="eyebrow">EquiKai</p>
             <h2>Better information. Better care.</h2>
             <Link href="/#pilot" className="button button-light">
-              Join the pilot
+              Join the waitlist
             </Link>
           </div>
         </section>

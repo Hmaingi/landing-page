@@ -77,7 +77,7 @@ export default function UseCasesPage() {
           <h2>Help us build better tools for horse care.</h2>
 
           <Link href="/#pilot" className="button button-light">
-            Join the Pilot
+            Join the waitlist
           </Link>
         </div>
       </section>

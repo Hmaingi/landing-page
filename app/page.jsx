@@ -27,7 +27,7 @@ export default function Home() {
 
           <div className="hero-actions">
             <Link href="#pilot" className="button button-primary">
-              Join the pilot
+              Join the waitlist
             </Link>
 
             <Link href="/product" className="button button-light">

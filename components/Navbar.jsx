@@ -17,7 +17,7 @@ export default function Navbar() {
           <Link href="/use-cases">Use Cases</Link>
           <Link href="/contact">Contact</Link>
           <Link href="/#pilot" className="button">
-            Join the pilot
+            Join the waitlist
           </Link>
         </div>
       </nav>
