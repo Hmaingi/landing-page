@@ -1,4 +1,5 @@
 import "./globals.css";
+import ScrollAnimations from "../components/ScrollAnimations";
 
 export const metadata = {
   title: "EquiKai | Horse Health Monitoring",
@@ -9,7 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <ScrollAnimations />
+      </body>
     </html>
   );
 }
