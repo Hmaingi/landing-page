@@ -77,16 +77,10 @@ export default function AppPage() {
             </div>
 
             <div className="dashboard-frame">
-              <div className="dashboard-placeholder">
-                <div className="placeholder-content">
-                  <span>APP DASHBOARD</span>
-                  <strong>EquiKai App Dashboard</strong>
-                  <small>
-                    Replace this placeholder with the final app dashboard
-                    screenshot.
-                  </small>
-                </div>
-              </div>
+              <img
+                src="/dashboard%20photo.png"
+                alt="Two EquiKai app dashboard screens showing horse activity and live health metrics"
+              />
             </div>
           </div>
         </section>

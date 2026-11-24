@@ -29,11 +29,7 @@ export default function UseCasesPage() {
                 className="use-case-detail-card clickable"
               >
                 <div className="use-case-card-image">
-                  <div className="placeholder-small">
-                    <span>IMAGE PLACEHOLDER</span>
-                    <strong>{uc.label}</strong>
-                    <small>Replace with final image for this use case.</small>
-                  </div>
+                  <img src={uc.image} alt="" />
                 </div>
 
                 <div className="use-case-card-body">

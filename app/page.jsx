@@ -229,18 +229,10 @@ export default function Home() {
             </div>
 
             <div className="dashboard-frame">
-              <div className="dashboard-placeholder">
-                <div className="placeholder-content">
-                  <span>APP DASHBOARD</span>
-
-                  <strong>EquiKai App Dashboard</strong>
-
-                  <small>
-                    Replace this placeholder with the live app dashboard
-                    screenshot (Horse Health Monitoring Dashboard.png).
-                  </small>
-                </div>
-              </div>
+              <img
+                src="/dashboard%20photo.png"
+                alt="Two EquiKai app dashboard screens showing horse activity and live health metrics"
+              />
             </div>
           </div>
         </div>
@@ -251,11 +243,10 @@ export default function Home() {
         <div className="container">
           <div className="use-case-card merged-image-card">
             <div className="use-case-card-background">
-              <div className="placeholder-fill">
-                <span>IMAGE PLACEHOLDER</span>
-                <strong>Use Cases Image</strong>
-                <small>Replace with a dedicated use-cases hero image.</small>
-              </div>
+              <img
+                src="/assets/sarah-olive-x_RB1PF7ePA-unsplash.jpg"
+                alt=""
+              />
               <div className="background-overlay" />
             </div>
 

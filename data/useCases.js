@@ -20,7 +20,7 @@ export const useCases = [
     title: "Turn training into measurable insight.",
     shortDescription:
       "Understand movement, recovery, and physiological patterns so training decisions are based on more than observation alone.",
-    image: "/assets/bo-zhang-7R9Zvl472VM-unsplash.jpg",
+    image: "/assets/jeff-griffith-PaIDqj8otls-unsplash.jpg",
     headline:
       "Better training decisions start with better information.",
     body:
@@ -34,7 +34,7 @@ export const useCases = [
     title: "More context between clinical visits.",
     shortDescription:
       "Give veterinary teams access to continuous monitoring data that can add context to assessment, recovery, and follow-up.",
-    image: "/assets/sarah-olive-x_RB1PF7ePA-unsplash.jpg",
+    image: "/assets/bo-zhang-7R9Zvl472VM-unsplash.jpg",
     headline:
       "Clinical decisions benefit from what happens between visits.",
     body:
@@ -48,7 +48,7 @@ export const useCases = [
     title: "Build better visibility around every horse.",
     shortDescription:
       "Monitor health and activity patterns across horses while building a more informed view of everyday wellbeing.",
-    image: "/assets/bo-zhang-7R9Zvl472VM-unsplash.jpg",
+    image: "/assets/dan-hadar-Q8XiRU59lcI-unsplash.jpg",
     headline:
       "Better visibility supports better long-term care.",
     body:
@@ -62,7 +62,7 @@ export const useCases = [
     title: "Move toward data-informed risk.",
     shortDescription:
       "Explore how continuous horse health and activity data could support a more informed approach to equine risk.",
-    image: "/assets/sarah-olive-x_RB1PF7ePA-unsplash.jpg",
+    image: "/assets/philippe-oursel-ykioooPo2qk-unsplash.jpg",
     headline:
       "A more connected view of equine risk.",
     body:
@@ -76,7 +76,7 @@ export const useCases = [
     title: "Better visibility across the equestrian ecosystem.",
     shortDescription:
       "Support a more data-informed approach to animal welfare, oversight, and standards across equestrian environments.",
-    image: "/assets/bo-zhang-7R9Zvl472VM-unsplash.jpg",
+    image: "/assets/rushaan-s-AQu-WtwD-cM-unsplash.jpg",
     headline:
       "Data can strengthen oversight without disrupting daily care.",
     body:
@@ -90,7 +90,7 @@ export const useCases = [
     title: "For those who expect more from every ride.",
     shortDescription:
       "From riders and jockeys to polo players and competitors, EquiKai brings health and performance insight closer to the sport.",
-    image: "/assets/sarah-olive-x_RB1PF7ePA-unsplash.jpg",
+    image: "/assets/daniel-schuh-ishekMw_16s-unsplash.jpg",
     headline:
       "When performance matters, so does understanding the horse behind it.",
     body:

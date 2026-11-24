@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { getUseCase } from "../../../data/useCases";
 
 const useCases = {
   "horse-owners": {
@@ -188,8 +189,9 @@ export default async function UseCaseDetailPage({ params }) {
   const { slug } = await params;
 
   const useCase = useCases[slug];
+  const audience = getUseCase(slug);
 
-  if (!useCase) {
+  if (!useCase || !audience) {
     notFound();
   }
 
@@ -206,19 +208,11 @@ export default async function UseCaseDetailPage({ params }) {
         </div>
       </section>
 
-      {/* IMAGE PLACEHOLDER */}
+      {/* AUDIENCE IMAGE */}
       <section className="section use-case-detail-intro">
         <div className="container">
-          <div className="large-use-case-placeholder">
-            <div>
-              <span>IMAGE PLACEHOLDER</span>
-
-              <strong>{useCase.imageLabel}</strong>
-
-              <small>
-                Replace this with the final image for this use case.
-              </small>
-            </div>
+          <div className="use-case-detail-image">
+            <img src={audience.image} alt={`${useCase.title} with a horse`} />
           </div>
         </div>
       </section>
